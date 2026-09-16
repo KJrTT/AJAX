@@ -1,0 +1,45 @@
+using FluentValidation;
+using System.Text.Json;
+
+namespace MyApi;
+
+/// <summary>
+/// Фильтр для валидации запросов в Minimal API
+/// </summary>
+public class ValidationFilter<T> : IEndpointFilter where T : class
+{
+    private readonly IValidator<T> _validator;
+
+    public ValidationFilter(IValidator<T> validator)
+    {
+        _validator = validator;
+    }
+
+    public async ValueTask<object?> InvokeAsync(
+        EndpointFilterInvocationContext context,
+        EndpointFilterDelegate next)
+    {
+        var argument = context.Arguments.FirstOrDefault(x => x?.GetType() == typeof(T)) as T;
+
+        if (argument == null)
+        {
+            return Results.BadRequest(new { error = "Неверный формат запроса" });
+        }
+
+        var validationResult = await _validator.ValidateAsync(argument);
+
+        if (!validationResult.IsValid)
+        {
+            var errors = validationResult.Errors
+                .GroupBy(e => e.PropertyName)
+                .ToDictionary(
+                    g => g.Key,
+                    g => g.Select(e => e.ErrorMessage).ToArray()
+                );
+
+            return Results.ValidationProblem(errors);
+        }
+
+        return await next(context);
+    }
+}
