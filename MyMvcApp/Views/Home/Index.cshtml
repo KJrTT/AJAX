@@ -1,0 +1,44 @@
+﻿@model MyMvcApp.ViewModels.ProductListViewModel
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<div class="container">
+    <h1>@Model.Title</h1>
+
+    <div class="filters mb-3">
+        <button class="btn btn-outline-primary filter-btn" data-category="">Все</button>
+        @foreach (var cat in Model.Categories)
+        {
+            <button class="btn btn-outline-primary filter-btn"
+                    data-category="@cat">@cat</button>
+        }
+    </div>
+
+    <!-- Shell: сюда JS вставит товары -->
+    <div id="catalog"
+         data-endpoint="@Model.ApiEndpoint"
+         data-loading-text="Загрузка каталога…">
+        <p class="text-muted">Загрузка каталога…</p>
+    </div>
+
+    <template id="product-card-template">
+        <div class="card mb-2">
+            <div class="card-body">
+                <h5 class="card-title" data-field="name"></h5>
+                <p class="card-text">
+                    <span data-field="category" class="badge bg-secondary"></span>
+                    <span data-field="price" class="ms-2"></span> ₽
+                </p>
+                <button class="btn btn-sm btn-link details-btn"
+                        data-field="details">Подробнее</button>
+            </div>
+        </div>
+    </template>
+
+    <div id="catalog-error" class="alert alert-danger d-none"></div>
+</div>
+
+@section Scripts {
+    <script src="~/js/catalog.js" asp-append-version="true"></script>
+}
