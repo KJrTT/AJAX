@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "RsTT1/LMk6V2v+MRPsvhVrySsM/+uRt72r3OfJfZQuw=",
+  "Source": "Домашнее задание 11.09.2026",
+  "BasePath": "_content/Домашнее задание 11.09.2026",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Домашнее задание 11.09.2026\\wwwroot",
+      "Source": "Домашнее задание 11.09.2026",
+      "ContentRoot": "C:\\Users\\Петр\\source\\repos\\Домашнее задание 11.09.2026\\Домашнее задание 11.09.2026\\wwwroot\\",
+      "BasePath": "_content/Домашнее задание 11.09.2026",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Петр\\source\\repos\\Домашнее задание 11.09.2026\\Домашнее задание 11.09.2026\\wwwroot\\form.html",
+      "SourceId": "Домашнее задание 11.09.2026",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Петр\\source\\repos\\Домашнее задание 11.09.2026\\Домашнее задание 11.09.2026\\wwwroot\\",
+      "BasePath": "_content/Домашнее задание 11.09.2026",
+      "RelativePath": "form.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\form.html"
+    }
+  ]
+}
