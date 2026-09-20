@@ -1,0 +1,48 @@
+﻿@model MyMvcApp.ViewModels.TaskListViewModel
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<div class="container">
+    <h1>@Model.Title</h1>
+
+    <div class="filters mb-3">
+        <button class="btn btn-outline-primary filter-btn" data-status="">Все</button>
+        <button class="btn btn-outline-primary filter-btn" data-status="New">Новые</button>
+        <button class="btn btn-outline-primary filter-btn" data-status="InProgress">В работе</button>
+        <button class="btn btn-outline-primary filter-btn" data-status="Done">Выполненные</button>
+    </div>
+
+    <!-- Shell: сюда JS вставит задачи -->
+    <div id="tasks"
+         data-endpoint="@Model.ApiEndpoint"
+         data-loading-text="Загрузка задач…">
+        <p class="text-muted">Загрузка задач…</p>
+    </div>
+
+    <template id="task-card-template">
+        <div class="card mb-2">
+            <div class="card-body">
+                <h5 class="card-title" data-field="title"></h5>
+                <p class="card-text">
+                    <span data-field="category" class="badge bg-secondary"></span>
+                    <span data-field="status" class="badge bg-info text-dark ms-1"></span>
+                    <span data-field="priority" class="badge bg-warning text-dark ms-1"></span>
+                </p>
+                <p class="card-text">
+                    <small class="text-muted">
+                        Срок: <span data-field="dueDate"></span>
+                    </small>
+                </p>
+                <button class="btn btn-sm btn-link versions-btn"
+                        data-field="versions">Версии</button>
+            </div>
+        </div>
+    </template>
+
+    <div id="tasks-error" class="alert alert-danger d-none"></div>
+</div>
+
+@section Scripts {
+    <script src="~/js/tasks.js" asp-append-version="true"></script>
+}

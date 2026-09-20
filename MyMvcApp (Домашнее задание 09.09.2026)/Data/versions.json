@@ -1,0 +1,4 @@
+[
+    { "id": 1, "taskItemId": 1, "versionNumber": 1, "createdAt": "2026-09-01", "title": "Сделать отчёт", "description": "Черновик" },
+    { "id": 2, "taskItemId": 1, "versionNumber": 2, "createdAt": "2026-09-15", "title": "Сделать отчёт", "description": "Финальная версия", "plannedStart": "2026-09-20", "plannedEnd": "2026-09-30" }
+  ]
