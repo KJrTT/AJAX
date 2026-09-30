@@ -1,0 +1,30 @@
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\Домашнее задание (07.09.2026).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\Домашнее задание (07.09.2026).AssemblyInfoInputs.cache
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\Домашнее задание (07.09.2026).AssemblyInfo.cs
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\Домашнее задание (07.09.2026).csproj.CoreCompileInputs.cache
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\Домашнее задание (07.09.2026).MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\Домашнее задание (07.09.2026).RazorAssemblyInfo.cache
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\Домашнее задание (07.09.2026).RazorAssemblyInfo.cs
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\bin\Debug\net8.0\appsettings.json
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\bin\Debug\net8.0\Домашнее задание (07.09.2026).staticwebassets.runtime.json
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\bin\Debug\net8.0\Домашнее задание (07.09.2026).exe
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\bin\Debug\net8.0\Домашнее задание (07.09.2026).deps.json
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\bin\Debug\net8.0\Домашнее задание (07.09.2026).runtimeconfig.json
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\bin\Debug\net8.0\Домашнее задание (07.09.2026).dll
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\bin\Debug\net8.0\Домашнее задание (07.09.2026).pdb
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\staticwebassets\msbuild.Домашнее задание (07.09.2026).Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\staticwebassets\msbuild.build.Домашнее задание (07.09.2026).props
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Домашнее задание (07.09.2026).props
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Домашнее задание (07.09.2026).props
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\scopedcss\bundle\Домашнее задание (07.09.2026).styles.css
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\scopedcss\projectbundle\Домашнее задание (07.09.2026).bundle.scp.css
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\Домашнее задание (07.09.2026).dll
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\refint\Домашнее задание (07.09.2026).dll
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\Домашнее задание (07.09.2026).pdb
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\Домашнее задание (07.09.2026).genruntimeconfig.cache
+C:\Users\Петр\source\repos\Домашнее задание (07.09.2026)\Домашнее задание (07.09.2026)\obj\Debug\net8.0\ref\Домашнее задание (07.09.2026).dll

@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Петр\\source\\repos\\Домашнее задание 11.09.2026\\Домашнее задание 11.09.2026\\wwwroot\\form.html",
+      "PackagePath": "staticwebassets\\form.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Домашнее задание 11.09.2026.props",
+      "PackagePath": "build\\Домашнее задание 11.09.2026.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Домашнее задание 11.09.2026.props",
+      "PackagePath": "buildMultiTargeting\\Домашнее задание 11.09.2026.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Домашнее задание 11.09.2026.props",
+      "PackagePath": "buildTransitive\\Домашнее задание 11.09.2026.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Домашнее задание 11.09.2026.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

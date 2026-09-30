@@ -1,0 +1,52 @@
+@model Домашнее_задание__07._09._2026_.Models.ApplicationForm
+@{
+	ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5" style="max-width:600px">
+	<h1 class="mb-4">Оставить заявку</h1>
+
+	<form method="post">
+		<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+		<div class="mb-3">
+			<label asp-for="FirstName" class="form-label"></label>
+			<input asp-for="FirstName" class="form-control" />
+			<span asp-validation-for="FirstName" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="LastName" class="form-label"></label>
+			<input asp-for="LastName" class="form-control" />
+			<span asp-validation-for="LastName" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="Email" class="form-label"></label>
+			<input asp-for="Email" class="form-control" />
+			<span asp-validation-for="Email" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="Age" class="form-label"></label>
+			<input asp-for="Age" type="number" class="form-control" />
+			<span asp-validation-for="Age" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="City" class="form-label"></label>
+			<input asp-for="City" class="form-control" />
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="About" class="form-label"></label>
+			<textarea asp-for="About" rows="3" class="form-control"></textarea>
+		</div>
+
+		<button type="submit" class="btn btn-primary w-100">Отправить</button>
+	</form>
+</div>
+
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Форма</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            padding: 40px;
+        }
+
+        form {
+            background: #fff;
+            padding: 24px;
+            max-width: 420px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,.1);
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0 14px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        button {
+            background: #0078d4;
+            color: #fff;
+            padding: 10px 18px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background: #005a9e;
+            }
+    </style>
+</head>
+<body>
+    <h1>Обратная связь</h1>
+    <form method="post" action="/submit">
+        <label>Имя:</label>
+        <input type="text" name="name" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Сообщение:</label>
+        <textarea name="message" rows="4"></textarea>
+
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>

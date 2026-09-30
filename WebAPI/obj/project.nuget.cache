@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "ADv8Ol+9ylI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Петр\\Desktop\\Новая папка\\AJAX-HomeTask\\WebAPI\\WebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Петр\\.nuget\\packages\\asp.versioning.abstractions\\8.1.0\\asp.versioning.abstractions.8.1.0.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\asp.versioning.http\\8.1.0\\asp.versioning.http.8.1.0.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\asp.versioning.mvc\\8.1.0\\asp.versioning.mvc.8.1.0.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\8.1.0\\asp.versioning.mvc.apiexplorer.8.1.0.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\2.1.2\\microsoft.extensions.caching.abstractions.2.1.2.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\microsoft.extensions.caching.memory\\2.1.23\\microsoft.extensions.caching.memory.2.1.23.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.1\\microsoft.extensions.configuration.2.1.1.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.1\\microsoft.extensions.configuration.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.1.10\\microsoft.extensions.configuration.binder.2.1.10.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.1\\microsoft.extensions.dependencyinjection.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\microsoft.extensions.logging\\2.1.1\\microsoft.extensions.logging.2.1.1.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.1.1\\microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\microsoft.extensions.options\\2.1.1\\microsoft.extensions.options.2.1.1.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\microsoft.featuremanagement\\3.5.0\\microsoft.featuremanagement.3.5.0.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\microsoft.featuremanagement.aspnetcore\\3.5.0\\microsoft.featuremanagement.aspnetcore.3.5.0.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "C:\\Users\\Петр\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
+  ],
+  "logs": []
+}
