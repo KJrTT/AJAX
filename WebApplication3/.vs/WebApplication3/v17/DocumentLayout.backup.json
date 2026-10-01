@@ -1,0 +1,720 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\application\\common\\abstractions\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:application\\common\\abstractions\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\infrastructure\\jsonmodelconfigurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:infrastructure\\jsonmodelconfigurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\application\\orders\\cancleorder\\cancelorderusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:application\\orders\\cancleorder\\cancelorderusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\application\\orders\\getorder\\getorderusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:application\\orders\\getorder\\getorderusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\web\\extensions\\mvcresultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:web\\extensions\\mvcresultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\api\\controllers\\ordersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:api\\controllers\\ordersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\application\\orders\\createorder\\createorderusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:application\\orders\\createorder\\createorderusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\web\\models\\orderdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:web\\models\\orderdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\interface\\js.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:interface\\js.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\infrastructure\\entityconfigroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:infrastructure\\entityconfigroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\application\\orders\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:application\\orders\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\application\\common\\abstractions\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:application\\common\\abstractions\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\application\\common\\abstractions\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:application\\common\\abstractions\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\application\\common\\abstractions\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:application\\common\\abstractions\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\domain\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:domain\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:domain\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\domain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:domain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\application\\orders\\getorder\\getorderquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:application\\orders\\getorder\\getorderquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\application\\orders\\cancleorder\\cancelordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:application\\orders\\cancleorder\\cancelordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\application\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:application\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\api\\contracts\\ordercontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:api\\contracts\\ordercontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\web\\models\\createorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:web\\models\\createorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\api\\extensions\\apiresultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:api\\extensions\\apiresultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\web\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:web\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\web\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:web\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\webapplication3.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:webapplication3.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ajax-hometask\\webapplication3\\webapplication3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B687B76-D373-4791-BB7F-BE4BDD6F3E58}|WebApplication3.csproj|solutionrelative:webapplication3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Infrastructure\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Infrastructure\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T18:25:42.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T18:25:28.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T18:25:15.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JsonModelConfigurator.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Infrastructure\\JsonModelConfigurator.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\JsonModelConfigurator.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Infrastructure\\JsonModelConfigurator.cs",
+              "RelativeToolTip": "Infrastructure\\JsonModelConfigurator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T07:26:02.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CancelOrderUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Orders\\CancleOrder\\CancelOrderUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Orders\\CancleOrder\\CancelOrderUseCase.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Orders\\CancleOrder\\CancelOrderUseCase.cs",
+              "RelativeToolTip": "Application\\Orders\\CancleOrder\\CancelOrderUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:40:35.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetOrderUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Orders\\GetOrder\\GetOrderUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Orders\\GetOrder\\GetOrderUseCase.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Orders\\GetOrder\\GetOrderUseCase.cs",
+              "RelativeToolTip": "Application\\Orders\\GetOrder\\GetOrderUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:39:26.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Domain\\Order.cs",
+              "RelativeDocumentMoniker": "Domain\\Order.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Domain\\Order.cs",
+              "RelativeToolTip": "Domain\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:36:23.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MvcResultExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Extensions\\MvcResultExtensions.cs",
+              "RelativeDocumentMoniker": "Web\\Extensions\\MvcResultExtensions.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Extensions\\MvcResultExtensions.cs",
+              "RelativeToolTip": "Web\\Extensions\\MvcResultExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:41:24.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T07:24:21.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:42:57.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Common\\Abstractions\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Abstractions\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Common\\Abstractions\\ICustomerRepository.cs",
+              "RelativeToolTip": "Application\\Common\\Abstractions\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T07:06:13.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrdersApiController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Api\\Controllers\\OrdersApiController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\OrdersApiController.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Api\\Controllers\\OrdersApiController.cs",
+              "RelativeToolTip": "Api\\Controllers\\OrdersApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:42:00.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateOrderUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Orders\\CreateOrder\\CreateOrderUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Orders\\CreateOrder\\CreateOrderUseCase.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Orders\\CreateOrder\\CreateOrderUseCase.cs",
+              "RelativeToolTip": "Application\\Orders\\CreateOrder\\CreateOrderUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:38:34.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Models\\OrderDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "Web\\Models\\OrderDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Models\\OrderDetailsViewModel.cs",
+              "RelativeToolTip": "Web\\Models\\OrderDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T18:11:08.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "js.json",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Interface\\js.json",
+              "RelativeDocumentMoniker": "Interface\\js.json",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Interface\\js.json",
+              "RelativeToolTip": "Interface\\js.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-23T07:25:07.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EntityConfigRoot.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Infrastructure\\EntityConfigRoot.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EntityConfigRoot.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Infrastructure\\EntityConfigRoot.cs",
+              "RelativeToolTip": "Infrastructure\\EntityConfigRoot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T07:24:30.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Common\\Abstractions\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Abstractions\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Common\\Abstractions\\IProductRepository.cs",
+              "RelativeToolTip": "Application\\Common\\Abstractions\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T07:12:38.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateOrderCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Orders\\CreateOrder\\CreateOrderCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Orders\\CreateOrder\\CreateOrderCommand.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Orders\\CreateOrder\\CreateOrderCommand.cs",
+              "RelativeToolTip": "Application\\Orders\\CreateOrder\\CreateOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:37:56.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Common\\Abstractions\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Abstractions\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Common\\Abstractions\\IUnitOfWork.cs",
+              "RelativeToolTip": "Application\\Common\\Abstractions\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T07:12:02.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Common\\Abstractions\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Abstractions\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Common\\Abstractions\\IOrderRepository.cs",
+              "RelativeToolTip": "Application\\Common\\Abstractions\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T07:11:11.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Domain\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Domain\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Domain\\OrderItem.cs",
+              "RelativeToolTip": "Domain\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T07:09:28.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Domain\\Customer.cs",
+              "RelativeDocumentMoniker": "Domain\\Customer.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Domain\\Customer.cs",
+              "RelativeToolTip": "Domain\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T07:09:10.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Domain\\Product.cs",
+              "RelativeDocumentMoniker": "Domain\\Product.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Domain\\Product.cs",
+              "RelativeToolTip": "Domain\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T07:08:47.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Common\\Result.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Result.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Common\\Result.cs",
+              "RelativeToolTip": "Application\\Common\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:37:05.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CancelOrderCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Orders\\CancleOrder\\CancelOrderCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Orders\\CancleOrder\\CancelOrderCommand.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Orders\\CancleOrder\\CancelOrderCommand.cs",
+              "RelativeToolTip": "Application\\Orders\\CancleOrder\\CancelOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:40:17.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetOrderQuery.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Orders\\GetOrder\\GetOrderQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Orders\\GetOrder\\GetOrderQuery.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Application\\Orders\\GetOrder\\GetOrderQuery.cs",
+              "RelativeToolTip": "Application\\Orders\\GetOrder\\GetOrderQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:39:11.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrderContracts.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Api\\Contracts\\OrderContracts.cs",
+              "RelativeDocumentMoniker": "Api\\Contracts\\OrderContracts.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Api\\Contracts\\OrderContracts.cs",
+              "RelativeToolTip": "Api\\Contracts\\OrderContracts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:40:53.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T05:54:44.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T06:00:11.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Microsoft.NET.TargetFrameworkInference.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAAKUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-09-23T06:02:43.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Web\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Web\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T06:00:24.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateOrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Models\\CreateOrderViewModel.cs",
+              "RelativeDocumentMoniker": "Web\\Models\\CreateOrderViewModel.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Models\\CreateOrderViewModel.cs",
+              "RelativeToolTip": "Web\\Models\\CreateOrderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:56:36.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ApiResultExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Api\\Extensions\\ApiResultExtensions.cs",
+              "RelativeDocumentMoniker": "Api\\Extensions\\ApiResultExtensions.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Api\\Extensions\\ApiResultExtensions.cs",
+              "RelativeToolTip": "Api\\Extensions\\ApiResultExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:41:41.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "Web\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T05:56:02.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Home\\Create.cshtml",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "Web\\Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T05:55:25.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Web\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T05:54:45.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T05:54:43.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T05:51:14.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T05:50:58.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-21T06:09:59.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "WebApplication3",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\WebApplication3.csproj",
+              "RelativeDocumentMoniker": "WebApplication3.csproj",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\WebApplication3.csproj",
+              "RelativeToolTip": "WebApplication3.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-21T06:09:49.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "WebApplication3.csproj",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\WebApplication3.csproj",
+              "RelativeDocumentMoniker": "WebApplication3.csproj",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AJAX-HomeTask\\WebApplication3\\WebApplication3.csproj",
+              "RelativeToolTip": "WebApplication3.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-21T06:05:33.563Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
