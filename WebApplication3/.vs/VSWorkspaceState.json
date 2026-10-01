@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Api",
+    "\\Api\\Controllers",
+    "\\Web",
+    "\\Web\\Views",
+    "\\Web\\Views\\Home",
+    "\\Web\\Views\\Shared",
+    "\\wwwroot",
+    "\\wwwroot\\css",
+    "\\wwwroot\\js",
+    "\\wwwroot\\lib"
+  ],
+  "PreviewInSolutionExplorer": false
+}
