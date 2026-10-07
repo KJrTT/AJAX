@@ -1,0 +1,580 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\views\\files\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\views\\files\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\wwwroot\\js\\files-page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\wwwroot\\js\\files-page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\middleware\\securityheadersmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\middleware\\securityheadersmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\wwwroot\\js\\files-client.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\wwwroot\\js\\files-client.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\services\\localfilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\services\\localfilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\controllers\\api\\filesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\controllers\\api\\filesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\controllers\\threatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\controllers\\threatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\services\\ithreatcatalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\services\\ithreatcatalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\services\\threatcatalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\services\\threatcatalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\models\\viewmodels\\threatmodelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\models\\viewmodels\\threatmodelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\models\\threatmodel\\securitybacklogitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\models\\threatmodel\\securitybacklogitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\models\\threatmodel\\stridecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\models\\threatmodel\\stridecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\models\\threatmodel\\threat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\models\\threatmodel\\threat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\models\\threatmodel\\trustboundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\models\\threatmodel\\trustboundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\services\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\services\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\services\\ifilevalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\services\\ifilevalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\security\\apikeyauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\security\\apikeyauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\security\\policies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\security\\policies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\services\\filevalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\services\\filevalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\security\\fileaccessrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\security\\fileaccessrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\models\\files\\filemetadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\models\\files\\filemetadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\models\\files\\fileuploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\models\\files\\fileuploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\views\\threats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\views\\threats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\models\\files\\apierror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\models\\files\\apierror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|c:\\users\\\u043F\u0435\u0442\u0440\\source\\repos\\securefilesmvc\\securefilesmvc\\middleware\\requestidmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30AE9C5C-EB97-45BE-9AFD-9647D18A562F}|SecureFilesMvc\\SecureFilesMvc.csproj|solutionrelative:securefilesmvc\\middleware\\requestidmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\appsettings.json",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\appsettings.json",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\appsettings.json",
+              "RelativeToolTip": "SecureFilesMvc\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-07T07:54:41.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LocalFileStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Services\\LocalFileStorageService.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Services\\LocalFileStorageService.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Services\\LocalFileStorageService.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Services\\LocalFileStorageService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T06:18:24.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "files-client.js",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\wwwroot\\js\\files-client.js",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\wwwroot\\js\\files-client.js",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\wwwroot\\js\\files-client.js",
+              "RelativeToolTip": "SecureFilesMvc\\wwwroot\\js\\files-client.js",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAuwIAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-10-07T05:30:31.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FilesApiController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Controllers\\Api\\FilesApiController.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Controllers\\Api\\FilesApiController.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Controllers\\Api\\FilesApiController.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Controllers\\Api\\FilesApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T06:17:02.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Views\\Files\\Index.cshtml",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Views\\Files\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Views\\Files\\Index.cshtml",
+              "RelativeToolTip": "SecureFilesMvc\\Views\\Files\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-07T06:07:28.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "files-page.js",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\wwwroot\\js\\files-page.js",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\wwwroot\\js\\files-page.js",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\wwwroot\\js\\files-page.js",
+              "RelativeToolTip": "SecureFilesMvc\\wwwroot\\js\\files-page.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-10-07T07:47:43.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SecurityHeadersMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Middleware\\SecurityHeadersMiddleware.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Middleware\\SecurityHeadersMiddleware.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Middleware\\SecurityHeadersMiddleware.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Middleware\\SecurityHeadersMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T05:27:57.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SecureFilesMvc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-07T06:32:12.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SecureFilesMvc\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-07T06:32:01.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T06:30:17.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ThreatCatalogService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Services\\ThreatCatalogService.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Services\\ThreatCatalogService.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Services\\ThreatCatalogService.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Services\\ThreatCatalogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T05:25:34.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IThreatCatalogService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Services\\IThreatCatalogService.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Services\\IThreatCatalogService.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Services\\IThreatCatalogService.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Services\\IThreatCatalogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T05:25:11.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SecurityBacklogItem.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\ThreatModel\\SecurityBacklogItem.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Models\\ThreatModel\\SecurityBacklogItem.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\ThreatModel\\SecurityBacklogItem.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Models\\ThreatModel\\SecurityBacklogItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T05:24:19.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StrideCategory.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\ThreatModel\\StrideCategory.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Models\\ThreatModel\\StrideCategory.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\ThreatModel\\StrideCategory.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Models\\ThreatModel\\StrideCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T05:22:32.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Threat.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\ThreatModel\\Threat.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Models\\ThreatModel\\Threat.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\ThreatModel\\Threat.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Models\\ThreatModel\\Threat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T05:23:59.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TrustBoundary.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\ThreatModel\\TrustBoundary.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Models\\ThreatModel\\TrustBoundary.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\ThreatModel\\TrustBoundary.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Models\\ThreatModel\\TrustBoundary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T05:23:30.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FilesController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Controllers\\FilesController.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Controllers\\FilesController.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Controllers\\FilesController.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Controllers\\FilesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T05:27:41.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ThreatModelViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\ViewModels\\ThreatModelViewModel.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Models\\ViewModels\\ThreatModelViewModel.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\ViewModels\\ThreatModelViewModel.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Models\\ViewModels\\ThreatModelViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T06:15:36.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Program.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Program.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Program.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T05:31:57.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ThreatsController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Controllers\\ThreatsController.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Controllers\\ThreatsController.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Controllers\\ThreatsController.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Controllers\\ThreatsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T06:07:13.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IFileStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Services\\IFileStorageService.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Services\\IFileStorageService.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Services\\IFileStorageService.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Services\\IFileStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T06:18:22.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IFileValidationService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Services\\IFileValidationService.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Services\\IFileValidationService.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Services\\IFileValidationService.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Services\\IFileValidationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T06:18:22.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApiKeyAuthenticationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Security\\ApiKeyAuthenticationHandler.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Security\\ApiKeyAuthenticationHandler.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Security\\ApiKeyAuthenticationHandler.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Security\\ApiKeyAuthenticationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T06:18:19.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Policies.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Security\\Policies.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Security\\Policies.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Security\\Policies.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Security\\Policies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T06:18:20.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FileAccessRequirement.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Security\\FileAccessRequirement.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Security\\FileAccessRequirement.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Security\\FileAccessRequirement.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Security\\FileAccessRequirement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T06:18:19.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FileValidationService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Services\\FileValidationService.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Services\\FileValidationService.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Services\\FileValidationService.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Services\\FileValidationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T05:34:34.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T06:18:17.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FileMetaDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\Files\\FileMetaDto.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Models\\Files\\FileMetaDto.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\Files\\FileMetaDto.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Models\\Files\\FileMetaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T06:12:35.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FileUploadRequest.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\Files\\FileUploadRequest.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Models\\Files\\FileUploadRequest.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\Files\\FileUploadRequest.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Models\\Files\\FileUploadRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T06:12:42.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Views\\Threats\\Index.cshtml",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Views\\Threats\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Views\\Threats\\Index.cshtml",
+              "RelativeToolTip": "SecureFilesMvc\\Views\\Threats\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-07T06:08:22.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ApiError.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\Files\\ApiError.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Models\\Files\\ApiError.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Models\\Files\\ApiError.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Models\\Files\\ApiError.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T05:27:24.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RequestIdMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Middleware\\RequestIdMiddleware.cs",
+              "RelativeDocumentMoniker": "SecureFilesMvc\\Middleware\\RequestIdMiddleware.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\Middleware\\RequestIdMiddleware.cs",
+              "RelativeToolTip": "SecureFilesMvc\\Middleware\\RequestIdMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T05:28:03.531Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

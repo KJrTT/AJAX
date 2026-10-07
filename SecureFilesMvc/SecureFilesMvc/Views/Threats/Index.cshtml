@@ -1,0 +1,62 @@
+@{
+	ViewData["Title"] = "Threat model и security backlog";
+	var threats = (IReadOnlyList<SecureFilesMvc.Models.ThreatModel.Threat>)ViewBag.Threats;
+	var backlog = (IReadOnlyList<SecureFilesMvc.Models.ThreatModel.SecurityBacklogItem>)ViewBag.Backlog;
+	var boundaries = (IReadOnlyList<SecureFilesMvc.Models.ThreatModel.TrustBoundary>)ViewBag.Boundaries;
+}
+
+<h1>Threat model</h1>
+
+<h2>Границы доверия</h2>
+<table class="table">
+	<thead><tr><th>Id</th><th>Имя</th><th>Пересекает</th><th>Контрмеры</th></tr></thead>
+	<tbody>
+		@foreach (var b in boundaries)
+		{
+			<tr>
+				<td>@b.Id</td>
+				<td>@b.Name</td>
+				<td>@b.CrossingData</td>
+				<td><ul>@foreach (var c in b.Controls)
+						{
+							<li>@c</li>
+						}</ul></td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+<h2>Угрозы (STRIDE)</h2>
+<table class="table">
+	<thead><tr><th>Id</th><th>STRIDE</th><th>Название</th><th>Риск</th><th>Границы</th></tr></thead>
+	<tbody>
+		@foreach (var t in threats)
+		{
+			<tr>
+				<td>@t.Id</td>
+				<td>@t.Category</td>
+				<td>@t.Title</td>
+				<td>@t.RiskScore</td>
+				<td>@t.TrustBoundaryId</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+<h2>Security backlog</h2>
+<table class="table">
+	<thead><tr><th>Id</th><th>Угроза</th><th>Задача</th><th>Приоритет</th><th>Статус</th><th>Владелец</th></tr></thead>
+	<tbody>
+		@foreach (var i in backlog)
+		{
+			<tr>
+				<td>@i.Id</td>
+				<td>@i.ThreatId</td>
+				<td>@i.Title</td>
+				<td>@i.Priority</td>
+				<td>@i.Status</td>
+				<td>@i.Owner</td>
+			</tr>
+		}
+	</tbody>
+</table>
