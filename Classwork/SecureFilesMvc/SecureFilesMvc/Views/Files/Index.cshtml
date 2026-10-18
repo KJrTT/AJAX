@@ -1,0 +1,32 @@
+@{
+	ViewData["Title"] = "Файлы";
+}
+
+<h1>Загрузка файла</h1>
+
+<input type="text" id="apiKey" placeholder="X-Api-Key" value="demo-secret-key-12345" />
+<input type="file" id="fileInput" accept=".png,.jpg,.jpeg,.gif,.pdf,.txt" />
+<button id="uploadBtn" class="btn btn-primary">Загрузить</button>
+<progress id="progress" value="0" max="100"></progress>
+<div id="result"></div>
+
+<hr />
+<h2>Загруженные файлы</h2>
+<table class="table" id="filesTable">
+	<thead>
+		<tr>
+			<th>Имя</th>
+			<th>Размер</th>
+			<th>Тип</th>
+			<th>Id</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody id="filesBody"></tbody>
+</table>
+<p id="emptyMessage" class="text-muted">Пока ничего не загружено.</p>
+
+@section Scripts {
+	<script src="~/js/files-client.js"></script>
+	<script src="~/js/files-page.js"></script>
+}

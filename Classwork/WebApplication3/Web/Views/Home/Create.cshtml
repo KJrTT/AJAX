@@ -1,0 +1,65 @@
+@model CreateOrderViewModel
+@{
+    ViewData["Title"] = "Новый заказ";
+}
+
+<h1>Новый заказ</h1>
+
+<form asp-action="Create" method="post">
+    @* Общая ошибка формы (из ModelState) *@
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="CustomerEmail">Email клиента</label>
+        <input asp-for="CustomerEmail" class="form-control" />
+        <span asp-validation-for="CustomerEmail" class="text-danger"></span>
+    </div>
+
+    <h3>Товары</h3>
+
+    <table class="table" id="items-table">
+        <thead>
+            <tr>
+                <th>ProductId</th>
+                <th>Количество</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Items.Count; i++)
+        {
+            <tr>
+                <td>
+                    <input asp-for="Items[i].ProductId" class="form-control" />
+                    <span asp-validation-for="Items[i].ProductId" class="text-danger"></span>
+                </td>
+                <td>
+                    <input asp-for="Items[i].Quantity" type="number" min="1" class="form-control" />
+                    <span asp-validation-for="Items[i].Quantity" class="text-danger"></span>
+                </td>
+                <td>
+                    <button type="button" class="btn-remove" onclick="this.closest('tr').remove()">✕</button>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
+    <button type="button" id="add-item" class="btn">+ Добавить товар</button>
+    <hr />
+    <button type="submit" class="btn btn-primary">Создать заказ</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        // Простое добавление строки без JS-фреймворков
+        document.getElementById('add-item').addEventListener('click', function () {
+            const tbody = document.querySelector('#items-table tbody');
+            const index = tbody.querySelectorAll('tr').length;
+            const tr = document.createElement('tr');
+            tr.innerHTML =                 <td><input name="Items[${index}].ProductId" class="form-control" /></td>                 <td><input name="Items[${index}].Quantity" type="number" min="1" value="1" class="form-control" /></td>                 <td><button type="button" class="btn-remove" onclick="this.closest('tr').remove()">✕</button></td>;
+            tbody.appendChild(tr);
+        });
+    </script>
+}

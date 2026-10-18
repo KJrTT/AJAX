@@ -1,0 +1,60 @@
+@model OrderDetailsViewModel
+@{
+    ViewData["Title"] = $"Заказ {Model.Id}";
+}
+
+<h1>Заказ @Model.Id</h1>
+
+<dl class="row">
+    <dt>Клиент</dt>
+    <dd>@Model.CustomerEmail</dd>
+
+    <dt>Статус</dt>
+    <dd>@Model.Status</dd>
+
+    <dt>Сумма</dt>
+    <dd>@Model.Total.ToString("C")</dd>
+</dl>
+
+<h3>Позиции</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Товар</th>
+            <th>Цена</th>
+            <th>Количество</th>
+            <th>Сумма</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Items)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Price.ToString("C")</td>
+            <td>@item.Quantity</td>
+            <td>@(item.Price * item.Quantity).ToString("C")</td>
+        </tr>
+    }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="3">Итого</th>
+            <th>@Model.Total.ToString("C")</th>
+        </tr>
+    </tfoot>
+</table>
+
+@if (Model.CanBeCancelled)
+{
+<form asp-action="Cancel" asp-route-id="@Model.Id" method="post">
+    <button type="submit" class="btn btn-danger"
+            onclick="return confirm('Отменить заказ?');">
+        Отменить заказ
+    </button>
+</form>
+}
+
+<p>
+    <a asp-controller="Orders" asp-action="Create">Создать ещё заказ</a>
+</p>

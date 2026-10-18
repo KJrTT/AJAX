@@ -1,0 +1,24 @@
+@model Домашнее_задание__07._09._2026_.Models.ApplicationForm
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="container mt-5">
+	<div class="alert alert-success">
+		<h2>✅ Заявка успешно отправлена!</h2>
+	</div>
+
+	<h3 class="mb-3">Анкета #@Model.Id</h3>
+
+	<table class="table table-bordered">
+		<tr><th style="width:30%">Имя</th><td>@Model.FirstName</td></tr>
+		<tr><th>Фамилия</th><td>@Model.LastName</td></tr>
+		<tr><th>Email</th><td>@Model.Email</td></tr>
+		<tr><th>Возраст</th><td>@Model.Age</td></tr>
+		<tr><th>Город</th><td>@Model.City</td></tr>
+		<tr><th>О себе</th><td>@Model.About</td></tr>
+	</table>
+
+	<a asp-action="Index" class="btn btn-primary">Новая заявка</a>
+</div>

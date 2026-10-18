@@ -1,0 +1,4 @@
+[
+    { "id": 1, "title": "Сделать отчёт", "description": "Квартальный", "dueDate": "2026-10-01", "priority": "High", "status": "New", "category": "Работа" },
+    { "id": 2, "title": "Купить продукты", "description": "", "dueDate": "2026-09-25", "priority": "Low", "status": "InProgress", "category": "Дом" }
+  ]

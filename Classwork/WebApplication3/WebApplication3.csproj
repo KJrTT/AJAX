@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Api\Controllers\" />
+    <Folder Include="Api\Contracts\" />
+    <Folder Include="Api\Extensions\" />
+    <Folder Include="Application\Orders\CreateOrder\" />
+    <Folder Include="Application\Orders\GetOrder\" />
+    <Folder Include="Application\Orders\CancleOrder\" />
+    <Folder Include="Web\Extensions\" />
+    <Folder Include="Interface\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
