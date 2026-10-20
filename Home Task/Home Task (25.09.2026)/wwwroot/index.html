@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Добавление товара</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Добавить товар</h2>
+  <form id="productForm">
+    <input name="name" placeholder="Название (от 3 до 50 символов)" required minlength="3" maxlength="50"><br><br>
+    <input name="price" type="number" step="0.01" min="0.01" placeholder="Цена" required><br><br>
+    <input name="categoryId" type="number" min="1" placeholder="ID категории" required><br><br>
+    <button type="submit">Добавить</button>
+  </form>
+  <p id="msg" style="color: green;"></p>
+  
+  <hr>
+  <h3>Посмотреть один товар</h3>
+  <input type="number" id="searchId" placeholder="Введите ID товара" min="1">
+  <button onclick="location.href='product.html?id=' + document.getElementById('searchId').value">Открыть</button>
+
+  <script>
+    document.getElementById('productForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const f = e.target;
+      const dto = {
+        name: f.name.value.trim(),
+        price: parseFloat(f.price.value),
+        categoryId: parseInt(f.categoryId.value, 10)
+      };
+
+      try {
+        const res = await fetch('/api/products', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(dto)
+        });
+
+        const msg = document.getElementById('msg');
+        if (res.ok) {
+          const p = await res.json();
+          msg.textContent = `Успешно! Создан товар с ID: ${p.id}`;
+          msg.style.color = 'green';
+          f.reset();
+        } else {
+          msg.textContent = 'Ошибка валидации (проверьте поля)';
+          msg.style.color = 'red';
+        }
+      } catch (err) {
+        console.error(err);
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Информация о товаре</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Информация о товаре</h2>
+  <div id="info">Загрузка данных...</div>
+  <br>
+  <a href="index.html">← Назад к добавлению</a>
+
+  <script>
+    const id = new URLSearchParams(location.search).get('id');
+    const info = document.getElementById('info');
+
+    if (!id) {
+      info.textContent = 'Не указан ID товара в адресной строке.';
+    } else {
+      fetch(`/api/products/${id}`)
+        .then(r => {
+          if (!r.ok) throw new Error('Товар не найден');
+          return r.json();
+        })
+        .then(p => {
+          info.innerHTML = `
+            <ul>
+              <li><b>ID:</b> ${p.id}</li>
+              <li><b>Название:</b> ${p.name}</li>
+              <li><b>Цена:</b> ${p.price} ₽</li>
+              <li><b>ID Категории:</b> ${p.categoryId}</li>
+            </ul>`;
+        })
+        .catch(err => {
+          info.textContent = 'Ошибка: ' + err.message;
+          info.style.color = 'red';
+        });
+    }
+  </script>
+</body>
+</html>
