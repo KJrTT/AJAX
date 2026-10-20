@@ -1,11 +1,77 @@
 {
   "Version": 1,
-  "Hash": "Xa8X4ZyB4vPUTqMTUjvaFMzDDagSPLcvoqDNofu+Yn4=",
+  "Hash": "HaL0tM148ksmNHaMXi+UrKam3uGY70bh52ohx9g2UPs=",
   "Source": "Samost",
   "BasePath": "_content/Samost",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Samost\\wwwroot",
+      "Source": "Samost",
+      "ContentRoot": "C:\\Users\\Петр\\Desktop\\AJAX\\Classwork\\Samost\\wwwroot\\",
+      "BasePath": "_content/Samost",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Петр\\Desktop\\AJAX\\Classwork\\Samost\\wwwroot\\index.html",
+      "SourceId": "Samost",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Петр\\Desktop\\AJAX\\Classwork\\Samost\\wwwroot\\",
+      "BasePath": "_content/Samost",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Петр\\Desktop\\AJAX\\Classwork\\Samost\\wwwroot\\product.html",
+      "SourceId": "Samost",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Петр\\Desktop\\AJAX\\Classwork\\Samost\\wwwroot\\",
+      "BasePath": "_content/Samost",
+      "RelativePath": "product.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\product.html"
+    },
+    {
+      "Identity": "C:\\Users\\Петр\\Desktop\\AJAX\\Classwork\\Samost\\wwwroot\\style.css",
+      "SourceId": "Samost",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Петр\\Desktop\\AJAX\\Classwork\\Samost\\wwwroot\\",
+      "BasePath": "_content/Samost",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
 }

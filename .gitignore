@@ -1,0 +1,183 @@
+# ==========================================
+# 1. C# / .NET / Visual Studio / Rider
+# ==========================================
+
+# Скомпилированные бинарники и кэш сборки
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# Настройки Visual Studio
+.vs/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Кэш и настройки Rider / ReSharper
+.idea/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Файлы тестов
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+
+# Артефакты .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Публикация (publish)
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishScripts/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# Временные файлы сборки
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# ==========================================
+# 2. Переменные окружения и секреты (КРИТИЧНО!)
+# ==========================================
+
+# Секретные .env файлы (но не .env.example)
+.env
+.env.*
+!.env.example
+*.env
+
+# Ключи и сертификаты
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Файлы с секретами (настройки)
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+
+# ==========================================
+# 3. Node.js (если вдруг понадобится фронтенд)
+# ==========================================
+
+node_modules/
+.pnp
+.pnp.js
+dist/
+build/
+.vite/
+*.tsbuildinfo
+.npm/
+.yarn/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# 4. Python (если в решении есть скрипты)
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.coverage
+.mypy_cache/
+
+# ==========================================
+# 5. Базы данных
+# ==========================================
+
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+*.ndf
+
+# ==========================================
+# 6. IDE и редакторы
+# ==========================================
+
+# VS Code
+.vscode/
+!.vscode/settings.json.example
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ==========================================
+# 7. Операционные системы
+# ==========================================
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory

@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Петр\\Desktop\\Новая папка\\AJAX-HomeTask\\Samost\\Samost.csproj",
+      "projectUniqueName": "C:\\Users\\Петр\\Desktop\\AJAX\\Classwork\\Samost\\Samost.csproj",
       "projectName": "Samost",
-      "projectPath": "C:\\Users\\Петр\\Desktop\\Новая папка\\AJAX-HomeTask\\Samost\\Samost.csproj",
+      "projectPath": "C:\\Users\\Петр\\Desktop\\AJAX\\Classwork\\Samost\\Samost.csproj",
       "packagesPath": "C:\\Users\\Петр\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Петр\\Desktop\\Новая папка\\AJAX-HomeTask\\Samost\\obj\\",
+      "outputPath": "C:\\Users\\Петр\\Desktop\\AJAX\\Classwork\\Samost\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Петр\\AppData\\Roaming\\NuGet\\NuGet.Config",

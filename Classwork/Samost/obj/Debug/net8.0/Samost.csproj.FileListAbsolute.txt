@@ -32,3 +32,38 @@ C:\Users\Петр\Desktop\Новая папка\AJAX-HomeTask\Samost\obj\Debug\n
 C:\Users\Петр\Desktop\Новая папка\AJAX-HomeTask\Samost\obj\Debug\net8.0\Samost.pdb
 C:\Users\Петр\Desktop\Новая папка\AJAX-HomeTask\Samost\obj\Debug\net8.0\Samost.genruntimeconfig.cache
 C:\Users\Петр\Desktop\Новая папка\AJAX-HomeTask\Samost\obj\Debug\net8.0\ref\Samost.dll
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\bin\Debug\net8.0\appsettings.json
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\bin\Debug\net8.0\Samost.staticwebassets.runtime.json
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\bin\Debug\net8.0\Samost.exe
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\bin\Debug\net8.0\Samost.deps.json
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\bin\Debug\net8.0\Samost.runtimeconfig.json
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\bin\Debug\net8.0\Samost.dll
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\bin\Debug\net8.0\Samost.pdb
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\Samost.csproj.AssemblyReference.cache
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\Samost.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\Samost.AssemblyInfoInputs.cache
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\Samost.AssemblyInfo.cs
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\Samost.csproj.CoreCompileInputs.cache
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\Samost.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\Samost.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\Samost.sourcelink.json
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\staticwebassets\msbuild.Samost.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\staticwebassets\msbuild.build.Samost.props
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Samost.props
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Samost.props
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\scopedcss\bundle\Samost.styles.css
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\Samost.csproj.Up2Date
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\Samost.dll
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\refint\Samost.dll
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\Samost.pdb
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\Samost.genruntimeconfig.cache
+C:\Users\Петр\Desktop\AJAX\Classwork\Samost\obj\Debug\net8.0\ref\Samost.dll
