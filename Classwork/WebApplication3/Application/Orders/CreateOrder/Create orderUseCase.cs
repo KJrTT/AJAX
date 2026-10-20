@@ -1,11 +1,10 @@
+﻿
 using WebApplication3.Application.Common;
 using WebApplication3.Application.Common.Abstractions;
 using WebApplication3.Domain;
-using WebApplication3.Application.Orders.CreateOrder;
 
-
-namespace WebApplication3.Application.Orders.CreateOrder;
-
+namespace WebApplication3.Application.Orders.CreateOrder
+{
 public sealed class CreateOrderUseCase
 {
     private readonly ICustomerRepository _customers;
@@ -60,4 +59,6 @@ public sealed class CreateOrderUseCase
 
         return order.Id;
     }
+}
+
 }

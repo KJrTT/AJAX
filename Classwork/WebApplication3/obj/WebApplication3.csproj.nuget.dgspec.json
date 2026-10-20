@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Петр\\Desktop\\Новая папка\\AJAX-HomeTask\\WebApplication3\\WebApplication3.csproj": {}
+    "C:\\Users\\Петр\\Desktop\\WebApplication3\\WebApplication3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Петр\\Desktop\\Новая папка\\AJAX-HomeTask\\WebApplication3\\WebApplication3.csproj": {
+    "C:\\Users\\Петр\\Desktop\\WebApplication3\\WebApplication3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Петр\\Desktop\\Новая папка\\AJAX-HomeTask\\WebApplication3\\WebApplication3.csproj",
+        "projectUniqueName": "C:\\Users\\Петр\\Desktop\\WebApplication3\\WebApplication3.csproj",
         "projectName": "WebApplication3",
-        "projectPath": "C:\\Users\\Петр\\Desktop\\Новая папка\\AJAX-HomeTask\\WebApplication3\\WebApplication3.csproj",
+        "projectPath": "C:\\Users\\Петр\\Desktop\\WebApplication3\\WebApplication3.csproj",
         "packagesPath": "C:\\Users\\Петр\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Петр\\Desktop\\Новая папка\\AJAX-HomeTask\\WebApplication3\\obj\\",
+        "outputPath": "C:\\Users\\Петр\\Desktop\\WebApplication3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Петр\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,13 +46,15 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.8, )"
             }
           },
           "imports": [

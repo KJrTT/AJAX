@@ -45,12 +45,12 @@
         root.innerHTML = `<p class="text-muted">${root.dataset.loadingText}</p>`;
 
         const url = category
-            ? ` ${endpoint}?category=${encodeURIComponent(category)}`
+            ? `${endpoint}?category=${encodeURIComponent(category)}`
             : endpoint;
 
         try {
             const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
-            if (!res.ok) throw new Error('HTTP ${res.status}');
+            if (!res.ok) throw new Error(`HTTP ${res.status}`); 
             render(await res.json());
         } catch (err) {
             console.error(err);
@@ -58,22 +58,24 @@
         }
     }
 
-    // Фильтры
+
     document.querySelectorAll('.filter-btn').forEach(btn => {
         btn.addEventListener('click', () => load(btn.dataset.category || null));
     });
 
-    // Кнопка "Подробнее" (делегирование)
+
     root.addEventListener('click', async e => {
         const btn = e.target.closest('.details-btn');
         if (!btn) return;
 
         const id = btn.dataset.id;
         try {
-            const res = await fetch('${endpoint}/${id}');
-            if (!res.ok) throw new Error('HTTP ${res.status}');
+
+            const res = await fetch(`${endpoint}/${id}`);
+            if (!res.ok) throw new Error(`HTTP ${res.status}`); 
             const p = await res.json();
-            alert('${p.name}\nКатегория: ${p.category}\nЦена: ${p.price} ₽');
+            
+            alert(`${p.name}\nКатегория: ${p.category}\nЦена: ${p.price} ₽`);
         } catch (err) {
             showError('Не удалось загрузить товар: ' + err.message);
         }

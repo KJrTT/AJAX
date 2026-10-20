@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Петр\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\SecureFilesMvc.csproj": {}
+    "C:\\Users\\Петр\\Desktop\\AJAX\\Classwork\\SecureFilesMvc\\SecureFilesMvc\\SecureFilesMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Петр\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\SecureFilesMvc.csproj": {
+    "C:\\Users\\Петр\\Desktop\\AJAX\\Classwork\\SecureFilesMvc\\SecureFilesMvc\\SecureFilesMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Петр\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\SecureFilesMvc.csproj",
+        "projectUniqueName": "C:\\Users\\Петр\\Desktop\\AJAX\\Classwork\\SecureFilesMvc\\SecureFilesMvc\\SecureFilesMvc.csproj",
         "projectName": "SecureFilesMvc",
-        "projectPath": "C:\\Users\\Петр\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\SecureFilesMvc.csproj",
+        "projectPath": "C:\\Users\\Петр\\Desktop\\AJAX\\Classwork\\SecureFilesMvc\\SecureFilesMvc\\SecureFilesMvc.csproj",
         "packagesPath": "C:\\Users\\Петр\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Петр\\source\\repos\\SecureFilesMvc\\SecureFilesMvc\\obj\\",
+        "outputPath": "C:\\Users\\Петр\\Desktop\\AJAX\\Classwork\\SecureFilesMvc\\SecureFilesMvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Петр\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,4 +1,4 @@
-@model OrderDetailsViewModel
+@model WebApplication3.Web.Models.OrderDetailsViewModel
 @{
     ViewData["Title"] = $"Заказ {Model.Id}";
 }
@@ -27,7 +27,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model.Items)
+    @foreach (var item in Model.Items)
     {
         <tr>
             <td>@item.Name</td>
@@ -47,12 +47,12 @@
 
 @if (Model.CanBeCancelled)
 {
-<form asp-action="Cancel" asp-route-id="@Model.Id" method="post">
-    <button type="submit" class="btn btn-danger"
-            onclick="return confirm('Отменить заказ?');">
-        Отменить заказ
-    </button>
-</form>
+    <form asp-action="Cancel" asp-route-id="@Model.Id" method="post">
+        <button type="submit" class="btn btn-danger"
+                onclick="return confirm('Отменить заказ?');">
+            Отменить заказ
+        </button>
+    </form>
 }
 
 <p>

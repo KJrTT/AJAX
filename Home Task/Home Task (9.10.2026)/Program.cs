@@ -4,11 +4,16 @@ using System.Collections.Concurrent;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
-
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.DataProtection;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.AspNetCore.Authentication; 
+using System.Net.Http.Headers; 
 // cookies
 // var builder = WebApplication.CreateBuilder(args);
 
-   builder.Services
+//    builder.Services
 //     .AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
 //     .AddCookie(options =>
 //     {
@@ -419,7 +424,7 @@ using System.Text;
 
 // builder.Services.AddHttpClient("api", c =>
 // {
-//     c.BaseAddress = new Uri(builder.Configuration["Api:BaseAddress"] ?? "http://localhost:5000");
+//     c.BaseAddress = new Uri(builder.Configuration["Api:BaseAddress"] ?? "http://localhost:5109");
 // });
 
 // var app = builder.Build();
@@ -693,208 +698,208 @@ using System.Text;
 
 // CookiesAndBearer
 
-// var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args);
 
-// var jwtKey = builder.Configuration["Jwt:Key"]
-//     ?? "SUPER_SECRET_KEY_AT_LEAST_32_BYTES_LONG_1234";
-// var jwtIssuer = builder.Configuration["Jwt:Issuer"] ?? "https://myapp.example";
-// var jwtAudience = builder.Configuration["Jwt:Audience"] ?? "myapp.api";
+var jwtKey = builder.Configuration["Jwt:Key"]
+    ?? "SUPER_SECRET_KEY_AT_LEAST_32_BYTES_LONG_1234";
+var jwtIssuer = builder.Configuration["Jwt:Issuer"] ?? "https://myapp.example";
+var jwtAudience = builder.Configuration["Jwt:Audience"] ?? "myapp.api";
 
-// builder.Services
-//     .AddAuthentication(o =>
-//     {
-//         o.DefaultScheme = "Smart";
-//         o.DefaultChallengeScheme = "Smart";
-//     })
-//     .AddPolicyScheme("Smart", "Smart", o =>
-//     {
-//         o.ForwardDefaultSelector = ctx =>
-//             ctx.Request.Headers.Authorization.ToString()
-//                 .StartsWith("Bearer ", StringComparison.OrdinalIgnoreCase)
-//                 ? JwtBearerDefaults.AuthenticationScheme
-//                 : CookieAuthenticationDefaults.AuthenticationScheme;
-//     })
-//     .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
-//     {
-//         o.Cookie.Name = ".Hybrid.Auth";
-//         o.Cookie.HttpOnly = true;
-//         o.Cookie.SameSite = SameSiteMode.Lax;
-//         o.Cookie.SecurePolicy = CookieSecurePolicy.Always;
-//         o.LoginPath = "/login";
-//         o.ExpireTimeSpan = TimeSpan.FromHours(8);
-//         o.SlidingExpiration = true;
-//     })
-//     .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, o =>
-//     {
-//         o.TokenValidationParameters = new TokenValidationParameters
-//         {
-//             ValidateIssuer = true, ValidIssuer = jwtIssuer,
-//             ValidateAudience = true, ValidAudience = jwtAudience,
-//             ValidateIssuerSigningKey = true,
-//             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey)),
-//             ValidateLifetime = true,
-//             ClockSkew = TimeSpan.FromSeconds(30),
-//             ValidAlgorithms = new[] { SecurityAlgorithms.HmacSha256 },
-//             NameClaimType = JwtRegisteredClaimNames.Sub,
-//             RoleClaimType = "role"
-//         };
-//     });
+builder.Services
+    .AddAuthentication(o =>
+    {
+        o.DefaultScheme = "Smart";
+        o.DefaultChallengeScheme = "Smart";
+    })
+    .AddPolicyScheme("Smart", "Smart", o =>
+    {
+        o.ForwardDefaultSelector = ctx =>
+            ctx.Request.Headers.Authorization.ToString()
+                .StartsWith("Bearer ", StringComparison.OrdinalIgnoreCase)
+                ? JwtBearerDefaults.AuthenticationScheme
+                : CookieAuthenticationDefaults.AuthenticationScheme;
+    })
+    .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
+    {
+        o.Cookie.Name = ".Hybrid.Auth";
+        o.Cookie.HttpOnly = true;
+        o.Cookie.SameSite = SameSiteMode.Lax;
+        o.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+        o.LoginPath = "/login";
+        o.ExpireTimeSpan = TimeSpan.FromHours(8);
+        o.SlidingExpiration = true;
+    })
+    .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, o =>
+    {
+        o.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true, ValidIssuer = jwtIssuer,
+            ValidateAudience = true, ValidAudience = jwtAudience,
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey)),
+            ValidateLifetime = true,
+            ClockSkew = TimeSpan.FromSeconds(30),
+            ValidAlgorithms = new[] { SecurityAlgorithms.HmacSha256 },
+            NameClaimType = JwtRegisteredClaimNames.Sub,
+            RoleClaimType = "role"
+        };
+    });
 
-// builder.Services.AddAuthorization(o =>
-// {
-//     o.AddPolicy("Html", p => p
-//         .AddAuthenticationSchemes(CookieAuthenticationDefaults.AuthenticationScheme)
-//         .RequireAuthenticatedUser());
+builder.Services.AddAuthorization(o =>
+{
+    o.AddPolicy("Html", p => p
+        .AddAuthenticationSchemes(CookieAuthenticationDefaults.AuthenticationScheme)
+        .RequireAuthenticatedUser());
 
-//     o.AddPolicy("Api", p => p
-//         .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
-//         .RequireAuthenticatedUser());
-// });
+    o.AddPolicy("Api", p => p
+        .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+        .RequireAuthenticatedUser());
+});
 
-// builder.Services.AddAntiforgery();
+builder.Services.AddAntiforgery();
 
-// var app = builder.Build();
+var app = builder.Build();
 
-// app.UseHttpsRedirection();
-// app.UseAuthentication();
-// app.UseAuthorization();
-// app.UseAntiforgery();
-
-
-// app.MapGet("/csrf", (HttpContext ctx, IAntiforgery af) =>
-// {
-//     var pair = af.GetAndStoreTokens(ctx);
-//     return Results.Ok(new { csrf = pair.RequestToken });
-// });
-
-// app.MapPost("/login", async (HttpContext ctx, IAntiforgery af, LoginDto dto) =>
-// {
-//     await af.ValidateRequestAsync(ctx);
-//     if (!UserStore.Verify(dto.Username, dto.Password)) return Results.Unauthorized();
-
-//     var user = UserStore.Users[dto.Username];
-//     var claims = new List<Claim>
-//     {
-//         new(ClaimTypes.Name, user.Username),
-//         new(ClaimTypes.NameIdentifier, user.Username),
-//         new("sid", Guid.NewGuid().ToString("N"))
-//     };
-//     claims.AddRange(user.Roles.Select(r => new Claim(ClaimTypes.Role, r)));
-
-//     await ctx.SignInAsync(
-//         CookieAuthenticationDefaults.AuthenticationScheme,
-//         new ClaimsPrincipal(new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme)));
-
-//     return Results.Ok(new { user = user.Username });
-// });
-
-// app.MapPost("/logout", async (HttpContext ctx, IAntiforgery af) =>
-// {
-//     await af.ValidateRequestAsync(ctx);
-//     await ctx.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-//     return Results.Ok();
-// });
+app.UseHttpsRedirection();
+app.UseAuthentication();
+app.UseAuthorization();
+app.UseAntiforgery();
 
 
-// app.MapPost("/token", (TokenRequest req) =>
-// {
-//     if (!UserStore.Verify(req.Username, req.Password)) return Results.Unauthorized();
-//     var user = UserStore.Users[req.Username];
-//     var access = TokenService.CreateAccessToken(
-//         user.Username, user.Roles, jwtKey, jwtIssuer, jwtAudience,
-//         TimeSpan.FromMinutes(15));
-//     return Results.Ok(new
-//     {
-//         access_token = access,
-//         token_type = "Bearer",
-//         expires_in = 900
-//     });
-// });
+app.MapGet("/csrf", (HttpContext ctx, IAntiforgery af) =>
+{
+    var pair = af.GetAndStoreTokens(ctx);
+    return Results.Ok(new { csrf = pair.RequestToken });
+});
 
-// app.MapGet("/dashboard", (HttpContext ctx) => Results.Ok(new
-// {
-//     mode = "html",
-//     user = ctx.User.Identity!.Name
-// })).RequireAuthorization("Html");
+app.MapPost("/login", async (HttpContext ctx, IAntiforgery af, LoginDto dto) =>
+{
+    await af.ValidateRequestAsync(ctx);
+    if (!UserStore.Verify(dto.Username, dto.Password)) return Results.Unauthorized();
 
-// app.MapGet("/api/data", (HttpContext ctx) => Results.Ok(new
-// {
-//     mode = "api",
-//     sub = ctx.User.FindFirst(JwtRegisteredClaimNames.Sub)?.Value
-//         ?? ctx.User.Identity!.Name,
-//     roles = ctx.User.FindAll("role").Select(c => c.Value)
-//         .Concat(ctx.User.FindAll(ClaimTypes.Role).Select(c => c.Value))
-//         .Distinct()
-// })).RequireAuthorization("Api");
+    var user = UserStore.Users[dto.Username];
+    var claims = new List<Claim>
+    {
+        new(ClaimTypes.Name, user.Username),
+        new(ClaimTypes.NameIdentifier, user.Username),
+        new("sid", Guid.NewGuid().ToString("N"))
+    };
+    claims.AddRange(user.Roles.Select(r => new Claim(ClaimTypes.Role, r)));
 
-// // "Smart": автоматически пустит по любой из двух схем
-// app.MapGet("/any", (HttpContext ctx) =>
-// {
-//     var scheme = ctx.User.Identity?.AuthenticationType ?? "none";
-//     return Results.Ok(new { scheme, user = ctx.User.Identity?.Name });
-// }).RequireAuthorization();
+    await ctx.SignInAsync(
+        CookieAuthenticationDefaults.AuthenticationScheme,
+        new ClaimsPrincipal(new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme)));
 
-// app.MapGet("/admin", () => Results.Ok("admin area"))
-//    .RequireAuthorization(p => p.RequireRole("admin"));
+    return Results.Ok(new { user = user.Username });
+});
 
-// app.Run();
+app.MapPost("/logout", async (HttpContext ctx, IAntiforgery af) =>
+{
+    await af.ValidateRequestAsync(ctx);
+    await ctx.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+    return Results.Ok();
+});
 
 
-// record LoginDto(string Username, string Password);
-// record TokenRequest(string Username, string Password);
-// record User(string Username, string PasswordHash, string[] Roles);
+app.MapPost("/token", (TokenRequest req) =>
+{
+    if (!UserStore.Verify(req.Username, req.Password)) return Results.Unauthorized();
+    var user = UserStore.Users[req.Username];
+    var access = TokenService.CreateAccessToken(
+        user.Username, user.Roles, jwtKey, jwtIssuer, jwtAudience,
+        TimeSpan.FromMinutes(15));
+    return Results.Ok(new
+    {
+        access_token = access,
+        token_type = "Bearer",
+        expires_in = 900
+    });
+});
 
-// static class UserStore
-// {
-//     public static readonly Dictionary<string, User> Users = new()
-//     {
-//         ["alice"] = new User("alice", Hash("p@ss"), new[] { "user", "admin" }),
-//         ["bob"]   = new User("bob",   Hash("p@ss"), new[] { "user" })
-//     };
+app.MapGet("/dashboard", (HttpContext ctx) => Results.Ok(new
+{
+    mode = "html",
+    user = ctx.User.Identity!.Name
+})).RequireAuthorization("Html");
 
-//     public static string Hash(string s) =>
-//         Convert.ToBase64String(SHA256.HashData(Encoding.UTF8.GetBytes(s)));
+app.MapGet("/api/data", (HttpContext ctx) => Results.Ok(new
+{
+    mode = "api",
+    sub = ctx.User.FindFirst(JwtRegisteredClaimNames.Sub)?.Value
+        ?? ctx.User.Identity!.Name,
+    roles = ctx.User.FindAll("role").Select(c => c.Value)
+        .Concat(ctx.User.FindAll(ClaimTypes.Role).Select(c => c.Value))
+        .Distinct()
+})).RequireAuthorization("Api");
 
-//     public static bool Verify(string u, string p)
-//     {
-//         if (!Users.TryGetValue(u, out var user)) return false;
-//         var a = Encoding.UTF8.GetBytes(user.PasswordHash);
-//         var b = Encoding.UTF8.GetBytes(Hash(p));
-//         return CryptographicOperations.FixedTimeEquals(a, b);
-//     }
-// }
+// "Smart": автоматически пустит по любой из двух схем
+app.MapGet("/any", (HttpContext ctx) =>
+{
+    var scheme = ctx.User.Identity?.AuthenticationType ?? "none";
+    return Results.Ok(new { scheme, user = ctx.User.Identity?.Name });
+}).RequireAuthorization();
 
-// static class TokenService
-// {
-//     public static string CreateAccessToken(
-//         string username,
-//         IEnumerable<string> roles,
-//         string key,
-//         string issuer,
-//         string audience,
-//         TimeSpan lifetime)
-//     {
-//         var claims = new List<Claim>
-//         {
-//             new(JwtRegisteredClaimNames.Sub, username),
-//             new(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString("N")),
-//             new(JwtRegisteredClaimNames.Iat,
-//                 DateTimeOffset.UtcNow.ToUnixTimeSeconds().ToString(),
-//                 ClaimValueTypes.Integer64)
-//         };
-//         claims.AddRange(roles.Select(r => new Claim("role", r)));
+app.MapGet("/admin", () => Results.Ok("admin area"))
+   .RequireAuthorization(p => p.RequireRole("admin"));
 
-//         var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key));
-//         var creds = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+app.Run();
 
-//         var token = new JwtSecurityToken(
-//             issuer: issuer,
-//             audience: audience,
-//             claims: claims,
-//             notBefore: DateTime.UtcNow,
-//             expires: DateTime.UtcNow.Add(lifetime),
-//             signingCredentials: creds);
 
-//         return new JwtSecurityTokenHandler().WriteToken(token);
-//     }
-// }
+record LoginDto(string Username, string Password);
+record TokenRequest(string Username, string Password);
+record User(string Username, string PasswordHash, string[] Roles);
+
+static class UserStore
+{
+    public static readonly Dictionary<string, User> Users = new()
+    {
+        ["alice"] = new User("alice", Hash("p@ss"), new[] { "user", "admin" }),
+        ["bob"]   = new User("bob",   Hash("p@ss"), new[] { "user" })
+    };
+
+    public static string Hash(string s) =>
+        Convert.ToBase64String(SHA256.HashData(Encoding.UTF8.GetBytes(s)));
+
+    public static bool Verify(string u, string p)
+    {
+        if (!Users.TryGetValue(u, out var user)) return false;
+        var a = Encoding.UTF8.GetBytes(user.PasswordHash);
+        var b = Encoding.UTF8.GetBytes(Hash(p));
+        return CryptographicOperations.FixedTimeEquals(a, b);
+    }
+}
+
+static class TokenService
+{
+    public static string CreateAccessToken(
+        string username,
+        IEnumerable<string> roles,
+        string key,
+        string issuer,
+        string audience,
+        TimeSpan lifetime)
+    {
+        var claims = new List<Claim>
+        {
+            new(JwtRegisteredClaimNames.Sub, username),
+            new(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString("N")),
+            new(JwtRegisteredClaimNames.Iat,
+                DateTimeOffset.UtcNow.ToUnixTimeSeconds().ToString(),
+                ClaimValueTypes.Integer64)
+        };
+        claims.AddRange(roles.Select(r => new Claim("role", r)));
+
+        var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key));
+        var creds = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
+        var token = new JwtSecurityToken(
+            issuer: issuer,
+            audience: audience,
+            claims: claims,
+            notBefore: DateTime.UtcNow,
+            expires: DateTime.UtcNow.Add(lifetime),
+            signingCredentials: creds);
+
+        return new JwtSecurityTokenHandler().WriteToken(token);
+    }
+}

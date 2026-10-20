@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RsTT1/LMk6V2v+MRPsvhVrySsM/+uRt72r3OfJfZQuw=",
+  "Hash": "JGZkOpcv6IzjG3pby5Ve8hu10Eb+Ir03Aka58qPNhr4=",
   "Source": "Домашнее задание 11.09.2026",
   "BasePath": "_content/Домашнее задание 11.09.2026",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Домашнее задание 11.09.2026\\wwwroot",
       "Source": "Домашнее задание 11.09.2026",
-      "ContentRoot": "C:\\Users\\Петр\\source\\repos\\Домашнее задание 11.09.2026\\Домашнее задание 11.09.2026\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Петр\\Desktop\\AJAX\\Home Task\\Home Task (11.09.2026)\\wwwroot\\",
       "BasePath": "_content/Домашнее задание 11.09.2026",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Петр\\source\\repos\\Домашнее задание 11.09.2026\\Домашнее задание 11.09.2026\\wwwroot\\form.html",
+      "Identity": "C:\\Users\\Петр\\Desktop\\AJAX\\Home Task\\Home Task (11.09.2026)\\wwwroot\\form.html",
       "SourceId": "Домашнее задание 11.09.2026",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Петр\\source\\repos\\Домашнее задание 11.09.2026\\Домашнее задание 11.09.2026\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Петр\\Desktop\\AJAX\\Home Task\\Home Task (11.09.2026)\\wwwroot\\",
       "BasePath": "_content/Домашнее задание 11.09.2026",
       "RelativePath": "form.html",
       "AssetKind": "All",

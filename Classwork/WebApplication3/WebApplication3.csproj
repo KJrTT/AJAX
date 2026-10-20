@@ -7,19 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Api\Controllers\" />
-    <Folder Include="Api\Contracts\" />
-    <Folder Include="Api\Extensions\" />
-    <Folder Include="Application\Orders\CreateOrder\" />
-    <Folder Include="Application\Orders\GetOrder\" />
-    <Folder Include="Application\Orders\CancleOrder\" />
-    <Folder Include="Web\Extensions\" />
-    <Folder Include="Interface\" />
+
+	  <None Update=" Infrastructture\entity-config.json">	  
+		  
+	  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.8" />
   </ItemGroup>
 
 </Project>

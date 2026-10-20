@@ -1,31 +1,104 @@
-html {
-  font-size: 14px;
+/* =========================================
+   Улучшения для страницы создания заказа
+   ========================================= */
+
+/* Красивая карточка для формы */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    border: 1px solid #e9ecef;
 }
 
-@media (min-width: 768px) {
-  html {
+h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #495057;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 10px;
+}
+
+/* Стилизация полей ввода */
+.form-control {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+    .form-control:focus {
+        border-color: #86b7fe;
+        box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    }
+
+/* Улучшение таблицы с товарами */
+.table {
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+    .table thead th {
+        background-color: #f8f9fa;
+        border-bottom: 2px solid #dee2e6;
+        font-weight: 600;
+        color: #495057;
+    }
+
+    .table tbody td {
+        vertical-align: middle;
+    }
+
+/* Кнопка "Добавить товар" */
+#add-item {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #e9ecef;
+    color: #212529;
+    border: 1px dashed #adb5bd;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+    #add-item:hover {
+        background-color: #dee2e6;
+        border-color: #6c757d;
+    }
+
+/* Кнопка удаления строки (крестик) */
+.btn-remove {
+    background: #ffe3e3;
+    color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+    .btn-remove:hover {
+        background: #ffc9c9;
+        color: #b02a37;
+    }
+
+/* Кнопка отправки формы */
+.btn-primary {
+    padding: 10px 24px;
     font-size: 16px;
-  }
+    font-weight: 600;
+    border-radius: 6px;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
-}
-
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
-}
-
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
-}
+    .btn-primary:hover {
+        background-color: #0b5ed7;
+        border-color: #0a58ca;
+    }

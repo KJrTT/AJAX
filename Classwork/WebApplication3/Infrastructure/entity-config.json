@@ -1,0 +1,54 @@
+{
+  "entities": [
+    {
+      "name": "Customer",
+      "table": "Customers",
+      "properties": {
+        "Id": {
+          "type": "Guid",
+          "isKey": true
+        },
+        "Email": {
+          "type": "string",
+          "required": true,
+          "maxLength": 256,
+          "unique": true
+        },
+        "Name": {
+          "type": "string",
+          "required": true,
+          "maxLength": 200
+        },
+        "IsBlocked": {
+          "type": "bool",
+          "required": true
+        }
+      }
+    },
+    {
+      "name": "Product",
+      "table": "Products",
+      "properties": {
+        "Id": {
+          "type": "Guid",
+          "isKey": true
+        },
+        "Name": {
+          "type": "string",
+          "required": true,
+          "maxLength": 200,
+          "index": true
+        },
+        "Price": {
+          "type": "decimal",
+          "required": true,
+          "columnType": "decimal(18,2)"
+        },
+        "Stock": {
+          "type": "int",
+          "required": true
+        }
+      }
+    }
+  ]
+}

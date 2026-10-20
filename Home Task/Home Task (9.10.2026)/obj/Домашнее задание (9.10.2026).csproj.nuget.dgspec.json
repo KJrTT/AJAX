@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Петр\\Desktop\\AJAX-HomeTask\\Домашнее задание (9.10.2026)\\Домашнее задание (9.10.2026).csproj": {}
+    "C:\\Users\\Петр\\Desktop\\AJAX\\Home Task\\Home Task (9.10.2026)\\Домашнее задание (9.10.2026).csproj": {}
   },
   "projects": {
-    "C:\\Users\\Петр\\Desktop\\AJAX-HomeTask\\Домашнее задание (9.10.2026)\\Домашнее задание (9.10.2026).csproj": {
+    "C:\\Users\\Петр\\Desktop\\AJAX\\Home Task\\Home Task (9.10.2026)\\Домашнее задание (9.10.2026).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Петр\\Desktop\\AJAX-HomeTask\\Домашнее задание (9.10.2026)\\Домашнее задание (9.10.2026).csproj",
+        "projectUniqueName": "C:\\Users\\Петр\\Desktop\\AJAX\\Home Task\\Home Task (9.10.2026)\\Домашнее задание (9.10.2026).csproj",
         "projectName": "Домашнее задание (9.10.2026)",
-        "projectPath": "C:\\Users\\Петр\\Desktop\\AJAX-HomeTask\\Домашнее задание (9.10.2026)\\Домашнее задание (9.10.2026).csproj",
+        "projectPath": "C:\\Users\\Петр\\Desktop\\AJAX\\Home Task\\Home Task (9.10.2026)\\Домашнее задание (9.10.2026).csproj",
         "packagesPath": "C:\\Users\\Петр\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Петр\\Desktop\\AJAX-HomeTask\\Домашнее задание (9.10.2026)\\obj\\",
+        "outputPath": "C:\\Users\\Петр\\Desktop\\AJAX\\Home Task\\Home Task (9.10.2026)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Петр\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.23.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.23.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

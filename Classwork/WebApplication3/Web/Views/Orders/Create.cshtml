@@ -1,0 +1,96 @@
+@model WebApplication3.Web.Models.CreateOrderViewModel
+@{
+	ViewData["Title"] = "Новый заказ";
+}
+
+<h1>Новый заказ</h1>
+
+<form asp-action="Create" method="post">
+	@* Общая ошибка формы (из ModelState) *@
+	<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+	<div class="form-group">
+		<label asp-for="CustomerEmail">Email клиента</label>
+		<input asp-for="CustomerEmail" class="form-control" />
+		<span asp-validation-for="CustomerEmail" class="text-danger"></span>
+	</div>
+
+	<h3>Товары</h3>
+
+	<table class="table" id="items-table">
+		<thead>
+			<tr>
+				<th>ProductId</th>
+				<th>Количество</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@if (Model.Items != null)
+			{
+				@for (int i = 0; i < Model.Items.Count; i++)
+				{
+					<tr>
+						<td>
+							<select asp-for="Items[i].ProductId" class="form-control">
+								<option value="">-- Выберите товар --</option>
+								@if (ViewBag.Products != null)
+								{
+									foreach (var p in ViewBag.Products)
+									{
+										<option value="@p.Id">@p.Name (@p.Price ₽)</option>
+									}
+								}
+							</select>
+							<span asp-validation-for="Items[i].ProductId" class="text-danger"></span>
+						</td>
+						<td>
+							<input asp-for="Items[i].Quantity" type="number" min="1" class="form-control" />
+							<span asp-validation-for="Items[i].Quantity" class="text-danger"></span>
+						</td>
+						<td>
+							<button type="button" class="btn-remove" onclick="this.closest('tr').remove()">✕</button>
+						</td>
+					</tr>
+				}
+			}
+		</tbody>
+	</table>
+
+	<button type="button" id="add-item" class="btn">+ Добавить товар</button>
+	<hr />
+	<button type="submit" class="btn btn-primary">Создать заказ</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.getElementById('add-item').addEventListener('click', function () {
+            const tbody = document.querySelector('#items-table tbody');
+            const index = tbody.querySelectorAll('tr').length;
+            const tr = document.createElement('tr');
+
+            
+            const products = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.Products ?? new List<WebApplication3.Domain.Product>()));
+
+            let options = '<option value="">-- Выберите товар --</option>';
+            products.forEach(p => {
+                options += `<option value="${p.id}">${p.name} (${p.price} ₽)</option>`;
+            });
+
+            tr.innerHTML = `<td>
+                                <select name="Items[${index}].ProductId" class="form-control">
+                                    ${options}
+                                </select>
+                            </td>
+                            <td>
+                                <input name="Items[${index}].Quantity" type="number" min="1" value="1" class="form-control" />
+                            </td>
+                            <td>
+                                <button type="button" class="btn-remove" onclick="this.closest('tr').remove()">✕</button>
+                            </td>`;
+
+            tbody.appendChild(tr);
+        });
+    </script>
+}

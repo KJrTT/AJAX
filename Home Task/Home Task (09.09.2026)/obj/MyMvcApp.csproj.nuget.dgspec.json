@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Петр\\Desktop\\09.09.2026\\MyMvcApp\\MyMvcApp.csproj": {}
+    "C:\\Users\\Петр\\Desktop\\AJAX\\Home Task\\Home Task (09.09.2026)\\MyMvcApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Петр\\Desktop\\09.09.2026\\MyMvcApp\\MyMvcApp.csproj": {
+    "C:\\Users\\Петр\\Desktop\\AJAX\\Home Task\\Home Task (09.09.2026)\\MyMvcApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Петр\\Desktop\\09.09.2026\\MyMvcApp\\MyMvcApp.csproj",
+        "projectUniqueName": "C:\\Users\\Петр\\Desktop\\AJAX\\Home Task\\Home Task (09.09.2026)\\MyMvcApp.csproj",
         "projectName": "MyMvcApp",
-        "projectPath": "C:\\Users\\Петр\\Desktop\\09.09.2026\\MyMvcApp\\MyMvcApp.csproj",
+        "projectPath": "C:\\Users\\Петр\\Desktop\\AJAX\\Home Task\\Home Task (09.09.2026)\\MyMvcApp.csproj",
         "packagesPath": "C:\\Users\\Петр\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Петр\\Desktop\\09.09.2026\\MyMvcApp\\obj\\",
+        "outputPath": "C:\\Users\\Петр\\Desktop\\AJAX\\Home Task\\Home Task (09.09.2026)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Петр\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,9 +1,12 @@
-using WebApplication3.Domain;
+﻿using WebApplication3.Domain;
 
-namespace WebApplication3.Application.Common.Abstractions;
-
-public interface ICustomerRepository
+namespace WebApplication3.Application.Common.Abstractions
 {
-    Task<Customer?> GetByEmailAsync(string email, CancellationToken ct);
-    void Add(Customer customer);
+
+
+    public interface ICustomerRepository
+    {
+        Task<Customer?> GetByEmailAsync(string email, CancellationToken ct);
+        void Add(Customer customer);
+    }
 }

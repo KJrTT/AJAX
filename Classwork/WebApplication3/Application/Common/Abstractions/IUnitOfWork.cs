@@ -1,6 +1,8 @@
-namespace WebApplication3.Application.Common.Abstractions;
-
-public interface IUnitOfWork
+﻿namespace WebApplication3.Application.Common.Abstractions
 {
-    Task<int> SaveChangesAsync(CancellationToken ct);
+
+    public interface IUnitOfWork
+    {
+        Task<int> SaveChangesAsync(CancellationToken ct);
+    }
 }
